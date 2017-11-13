@@ -1,8 +1,7 @@
 package DAOs;
 
 import Entidade.Sensor;
-import daos.DAOGenerico;
-import static daos.DAOGenerico.em;
+import DAOs.DAOGenerico;
 import java.util.ArrayList;
 import java.util.List;
 

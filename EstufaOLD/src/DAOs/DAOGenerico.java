@@ -1,4 +1,4 @@
-package daos;
+package DAOs;
 
 import java.util.List;
 import javax.persistence.EntityManager;

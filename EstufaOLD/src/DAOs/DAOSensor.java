@@ -9,7 +9,7 @@ package DAOs;
  *
  * @author a1136844
  */
-public class DAOSensor extends DAOGenerico{
+public class DAOSensor   extends DAOGenerico{
     
     
 }
