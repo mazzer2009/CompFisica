@@ -1,0 +1,29 @@
+/*
+O objetivo do programa é gerar
+dados aleatórios para testar
+a recepção de dados em projetos Java
+*/
+
+int c;
+int t;
+String aux;
+
+void setup()
+{
+  Serial.begin(9600);
+}
+int i=0;
+void loop()
+{
+  // print a random number from 10 to 19
+  c = random(0, 50);
+  t = random(0, 75);
+  aux = "1;"+(String)c+"|"+"2;"+(String)t;
+  Serial.println(aux);
+  delay(1000);
+  i++;
+  if (i==100)
+  { 
+    i=0;
+  }
+}
